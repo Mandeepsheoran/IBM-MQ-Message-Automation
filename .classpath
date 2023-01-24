@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/POC and Knowledge Base/JMS_IBMMQ/com.ibm.mq.allclient-9.3.0.0.jar" sourcepath="C:/Users/Mandeep.Sheoran/Downloads/com.ibm.mq.allclient-9.3.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/POC and Knowledge Base/JMS_IBMMQ/javax.jms-api-2.0.1.jar" sourcepath="C:/Users/Mandeep.Sheoran/Downloads/javax.jms-api-2.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/POC and Knowledge Base/JMS_IBMMQ/json-20220320.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mandeep.Sheoran/Downloads/com.ibm.mq.allclient-9.3.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mandeep.Sheoran/Downloads/json-20220320-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mandeep.Sheoran/Downloads/javax.jms-api-2.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Local_Maven/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/Local_Maven/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Local_Maven/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar"/>
+	<classpathentry kind="lib" path="D:/Local_Maven/com/aventstack/extentreports/5.0.5/extentreports-5.0.5.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="javadoc_location" value="jar:file:/D:/Local_Maven/com/aventstack/extentreports/5.0.5/extentreports-5.0.5-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="com.aventstack"/>
+			<attribute name="maven.artifactId" value="extentreports"/>
+			<attribute name="maven.version" value="5.0.5"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
